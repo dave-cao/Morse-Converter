@@ -44,33 +44,38 @@ git clone git@github.com:dave-cao/Morse-Converter.git
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Go into the `config.py` file and configure the settings to your liking. The default is a 50 minute pomodoro with 10 minute short breaks and a 30 minute long break. File paths can also be configured here.
+There are two ways you can interact with this program.
+1. No extra arguments: if no extra arguments are given, the program will prompt you for a string to convert.
 
-![Pomo Config Image](img/image3.png)
-
-2. Run the application
 ```sh
 python3 main.py
 ```
+![No extra args given image](img/image0.png)
 
-![Pomo Menu Image](img/image0.png)
-![Pomo Session Image](img/image2.png)
-![Daily Stats Image](img/image1.png)
+2. An extra argument was given: this is a text file you want to convert. It will create a new file prefixed with "morse" or "english" and give you the desired output in another text file. Eg:
+```sh
+# inputted command
+python3 main.py moby10b.txt
 
+# output
+morse_moby10b.txt
+```
 3. Exit application
 ```
 ctl + c
 ```
 
-_For a more comprehensive example of using this application, refer to this [video](example video here)_
+_For a more comprehensive example of using this application, refer to this [video](www.example.com)_
 
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
-
-Future plans...
+No current future plans for this project. It's a small project what can I say. However, if you want to improve this code, there are some challenges I encountered.
+1. Morse code doesn't have a distinction between lower and upper case letters, therefore, when converting everything back to English, it will only output lowercase letters.
+2. Following the above, letters like "I" and "I'm" will all be lower cased
+3. If a non morse file contains morse like characters like "**", that will be converted into English when converting back.
 
 
 <!-- CONTRIBUTING -->
@@ -98,6 +103,6 @@ Don't forget to give the project a star! Thanks again!
 - [Youtube](https://www.youtube.com/channel/UCEnBPbnNnqhQIIhW1uLXrLA)
 - [Linkedin](https://www.linkedin.com/in/david-cao99/)
 - Personal Website: https://davidcao.xyz/
-- Project Link - https://github.com/dave-cao/Pomodoro-Cli
+- Project Link - https://github.com/dave-cao/Morse-Converter
 
 
