@@ -6,7 +6,7 @@
 
 ![Morse Converter Gif](./assets/morse-converter.gif)
 
-- [Live](www.exampe.com) demonstration video.
+- [Live](https://youtu.be/Ji2s_ZOcDSs) demonstration video.
 - [Demo](https://replit.com/@KingCao/Morse-Converter?v=1) the Project.
 
 
@@ -38,7 +38,7 @@ python -m ensurepip --upgrade
 
 1. Clone the repo
 ```sh
-git clone git@github.com:dave-cao/Morse-Converter.git
+git clone https://github.com/dave-cao/Morse-Converter.git
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -65,7 +65,7 @@ morse_moby10b.txt
 ctl + c
 ```
 
-_For a more comprehensive example of using this application, refer to this [video](www.example.com)_
+_For a more comprehensive example of using this application, refer to this [video](https://youtu.be/Ji2s_ZOcDSs)_
 
 
 
